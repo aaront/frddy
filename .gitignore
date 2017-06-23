@@ -41,8 +41,11 @@ coverage.xml
 
 # IDEs
 .idea/
-.vscode/
+.vscode/.ropeproject
 docs/_build/
 
 # Mac
 .DS_Store
+
+# mypy stuff
+.mypy_cache

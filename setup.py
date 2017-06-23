@@ -33,10 +33,13 @@ setup(
     package_data={'': ['LICENSE']},
     package_dir={'frddy': 'frddy'},
     license='Apache 2.0',
-    install_requires=[],
+    install_requires=[
+        'click',
+        'requests'
+    ],
     entry_points='''
         [console_scripts]
-        myg=frddy.cli:main
+        frddy=frddy.cli:main
     ''',
     classifiers=(
         'Development Status :: 3 - Alpha',
